@@ -1,5 +1,7 @@
 // write your class here
+class name (){
 
+}
 
 fun main() {
     val alicesAdventuresInWonderland = LewisCarrollBook()
