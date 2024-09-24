@@ -1,5 +1,11 @@
-fun checkSpeed(...) {
+fun checkSpeed(speed : Int, limit : Int = 60) {
     // write your code here
+    if (speed > limit){
+        var km = speed - limit
+        println("Exceeds the limit by $km Kilometers per hour")
+    }else{
+        println("Within the limit")
+    }
 }
 
 fun main() {
